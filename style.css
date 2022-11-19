@@ -22,11 +22,14 @@ h1{
     column-gap: 40px;
 }
 
+/* The most important lines of code to ensure photos fit to any size in grid */
 .img-grid > img {
 
     width: 100%;    
     object-fit: cover;
 }
+
+/* The above lines ensure image fits within the rows and cols without resizing */
 
 #p1{
     grid-column-start: 1;
